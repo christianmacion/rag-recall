@@ -1,0 +1,15 @@
+# rag-recall dependencies.
+#
+# IMPORTANT: the offline retriever + the eval CLI (`python -m rag_recall.evaluate`)
+# need NONE of these — they run on the Python standard library alone. Everything
+# below is only for the Streamlit UI and the optional live/high-quality path.
+
+# --- UI ---
+streamlit>=1.31
+
+# --- Live answer generation (optional; gated on ANTHROPIC_API_KEY) ---
+anthropic>=0.40
+
+# --- Optional high-quality embedding retriever (lazy-imported) ---
+sentence-transformers>=2.2
+chromadb>=0.4

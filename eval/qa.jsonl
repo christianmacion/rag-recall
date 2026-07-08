@@ -1,0 +1,35 @@
+{"q": "What is the syntax form of a Python list comprehension?", "gold_chunk_id": "python_list_comprehensions#0"}
+{"q": "Why are list comprehensions usually faster than a for loop with append?", "gold_chunk_id": "python_list_comprehensions#0"}
+{"q": "How do you build a dictionary or set with a comprehension?", "gold_chunk_id": "python_list_comprehensions#1"}
+{"q": "What does the yield keyword do in a Python generator?", "gold_chunk_id": "python_generators#0"}
+{"q": "Why are generators memory efficient?", "gold_chunk_id": "python_generators#0"}
+{"q": "What syntax does a generator expression use compared to a list comprehension?", "gold_chunk_id": "python_generators#1"}
+{"q": "What is a Python decorator and what does the @ syntax mean?", "gold_chunk_id": "python_decorators#0"}
+{"q": "What does functools.lru_cache do?", "gold_chunk_id": "python_decorators#1"}
+{"q": "How do you create a Python virtual environment with venv?", "gold_chunk_id": "python_virtual_environments#0"}
+{"q": "What is a requirements.txt file used for?", "gold_chunk_id": "python_virtual_environments#1"}
+{"q": "What is a token in a large language model?", "gold_chunk_id": "llm_tokens#0"}
+{"q": "What is byte-pair encoding in tokenization?", "gold_chunk_id": "llm_tokens#0"}
+{"q": "Why do token counts matter for cost and context limits?", "gold_chunk_id": "llm_tokens#1"}
+{"q": "What is the context window of a language model?", "gold_chunk_id": "llm_context_window#0"}
+{"q": "What is compaction and context editing for long conversations?", "gold_chunk_id": "llm_context_window#1"}
+{"q": "What does the temperature parameter control in an LLM?", "gold_chunk_id": "llm_temperature#0"}
+{"q": "What is nucleus sampling, also called top-p sampling?", "gold_chunk_id": "llm_temperature#0"}
+{"q": "What is an LLM hallucination?", "gold_chunk_id": "llm_hallucination#0"}
+{"q": "How does retrieval-augmented generation reduce hallucination?", "gold_chunk_id": "llm_hallucination#1"}
+{"q": "What is retrieval-augmented generation and what are its four stages?", "gold_chunk_id": "rag_overview#0"}
+{"q": "What is the main weakness of RAG regarding retrieval quality?", "gold_chunk_id": "rag_overview#1"}
+{"q": "Why does chunk size matter when splitting documents?", "gold_chunk_id": "rag_chunking#0"}
+{"q": "How is a chunk id formed in this project?", "gold_chunk_id": "rag_chunking#1"}
+{"q": "What is an embedding and how is semantic similarity measured?", "gold_chunk_id": "rag_embeddings#0"}
+{"q": "When can BM25 keyword retrieval beat dense embeddings?", "gold_chunk_id": "rag_embeddings#1"}
+{"q": "What is a vector database and what does it return for a query?", "gold_chunk_id": "rag_vector_database#0"}
+{"q": "What does recall at k measure in retrieval evaluation?", "gold_chunk_id": "eval_recall_at_k#0"}
+{"q": "What is mean reciprocal rank and how is reciprocal rank computed?", "gold_chunk_id": "eval_mrr#0"}
+{"q": "What does a faithfulness check do and when is an answer flagged?", "gold_chunk_id": "eval_faithfulness#0"}
+{"q": "What are the two BM25 parameters k1 and b?", "gold_chunk_id": "bm25_ranking#1"}
+{"q": "What does TF-IDF stand for and how does it weight terms?", "gold_chunk_id": "tfidf_vectorizer#0"}
+{"q": "My search returns the right document but ranks it third instead of first; which metric captures that ranking quality?", "gold_chunk_id": "eval_mrr#0"}
+{"q": "How can I avoid loading an entire million-item sequence into memory all at once?", "gold_chunk_id": "python_generators#1"}
+{"q": "How do I reproduce the exact set of packages another developer installed?", "gold_chunk_id": "python_virtual_environments#1"}
+{"q": "What stops the tenth occurrence of a word from counting as much as the second occurrence?", "gold_chunk_id": "bm25_ranking#1"}

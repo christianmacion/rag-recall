@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+scorecard.json
+.DS_Store
+.chroma/
+.streamlit/secrets.toml
+quantlib/_cache/
